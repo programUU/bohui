@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1517px;
+    height: 2100px;
+    position: relative;
+}
+
+header {
+    width: 1517px;
+    height: 280px;
+}
+
+header .nav {
+    width: 1517px;
+    height: 40px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+
+header .nav ul {
+    width: 550px;
+    margin-left: 180px;
+    float: left;
+}
+
+header .nav ul li {
+    height: 40px;
+    width: 90px;
+    display: inline-block;
+    line-height: 40px;
+    margin: 0px 15px;
+    text-align: center;
+}
+
+header .nav ul li a {
+    color: black;
+}
+
+header .nav ul li span {
+    display: inline-block;
+    background: url(images/箭头_列表展开.png) no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+header .nav ul:nth-child(1) li:nth-child(4) span {
+    background: url(images/定位.png) no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+header .nav ul:nth-child(2) {
+    float: left;
+    margin-left: 200px;
+}
+
+header .nav ul:nth-child(2) li:nth-child(4) span {
+    background: url(images/购物车.png) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+    display: inline-block;
+
+}
+
+header .logo {
+    width: 1517px;
+    height: 200px;
+    position: relative;
+}
+
+header .logo img {
+    position: absolute;
+    width: 240px;
+    height: 80px;
+    left: 180px;
+    top: 50%;
+    margin-top: -40px;
+}
+
+header .logo>div input {
+    padding-left: 10px;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+header .logo>div button {
+    padding: 5px 10px;
+}
+
+header .logo>div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -15px;
+}
+
+header .secondary_nav {
+    height: 40px;
+    width: 1517px;
+}
+
+header .secondary_nav div {
+    height: 40px;
+    width: 220px;
+    display: inline-block;
+    margin-left: 190px;
+    background-color: #ff9900;
+    line-height: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+header .secondary_nav div span {
+    width: 20px;
+    height: 20px;
+    background: url(images/modify.png) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 15px 5px 15px;
+
+}
+
+header .secondary_nav ul {
+    display: inline-block;
+    width: 900px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header .secondary_nav ul li a {
+    color: black;
+}
+
+header .secondary_nav ul li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 25px;
+    font-weight: bold;
+}
+
+.banner {
+    width: 1517px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner>ul {
+    width: 500%;
+    height: 450px;
+}
+
+.banner>ul li {
+    width: 20%;
+    height: 450px;
+    float: left;
+    background: url(images/banner-bj\ \(2\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner>ul li:nth-child(2) {
+    background: url(images/banner-bj\ \(3\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner>ul li:nth-child(3) {
+    background: url(images/banner-bj\ \(4\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner>ul li:nth-child(4) {
+    background: url(images/banner-bj\ \(5\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner>ul li:nth-child(5) {
+    background: url(images/banner-bj\ \(2\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.banner>div ul {
+    position: absolute;
+    height: 450px;
+    left: 190px;
+    top: 0;
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner>div ul li {
+    width: 220px;
+    padding: 10px 0px;
+}
+
+.banner>div ul li a {
+    color: white;
+    margin-left: 10px;
+}
+.content{
+    width: 1140px;
+    margin: 0 auto;
+}
+.content>div{
+    width: 1140px;
+    height: 400px;
+    text-align: center;
+}
+
+.content>div div:nth-child(1){
+    width: 1140px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: gainsboro;
+}
+.content>div div:nth-child(2){
+    width: 1140px;
+    height: 340px;
+}
+.content div>span{
+    width: 70px;
+    height: 3px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: gainsboro;
+}
+.content div{
+    letter-spacing: 6px;
+}
+.content>div div:nth-child(2) ul li {
+    width: 350px;
+    height: 150px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 15px;
+    background-color: gainsboro;
+
+}
+.content>div div:nth-child(2) ul li div:nth-child(1){
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background: url(images/1.png) no-repeat;
+    background-size: cover;
+}
+.content>div div:nth-child(2) ul li div:nth-child(2){
+    width: 180px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 15px;
+}
+.content>div div:nth-child(2) ul li div:nth-child(2) p:nth-child(1){
+    margin-top: 10px;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+.content>div div:nth-child(2) ul li div:nth-child(2) p:nth-child(2){
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    letter-spacing: 0;
+    font-size: 13px;
+}
+.content>div div:nth-child(2) ul li div:nth-child(2) span{
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0;
+}
+.content>div:nth-child(2) div:nth-child(2) ul li {
+    width: 500px;
+    height: 150px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 15px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    position: relative;
+}
+.content>div:nth-child(2) div:nth-child(2) ul li div:nth-child(2){
+    width: 300px;
+}
+.content>div:nth-child(2) div:nth-child(2) ul li div:nth-child(1){
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background: url(images/buy\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.content>div:nth-child(2) div:nth-child(2) ul li div:nth-child(2) p:nth-child(1){
+    margin-left: 50px;
+}
+.content>div:nth-child(2) div:nth-child(2) ul li div:nth-child(2) p:nth-child(2){
+    margin-left: 50px;
+}
+
+.content>div:nth-child(2) div:nth-child(2) ul li div:nth-child(2)>span{
+    margin-left: 50px;
+}
+.content>div:nth-child(2) div:nth-child(2) ul li div:nth-child(3){
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 15px;
+    bottom: 10px;
+    left: 260px;
+    background-color: gray;
+}
+.content>div:nth-child(3){
+    height: 60px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 1517px;
+    height: 350px;
+    background-color: #e0e0e0;
+}
+footer ul{
+    margin-top: 40px;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    margin: 0px 40px;
+    font-size: 13px;
+}
+footer ul li div:nth-child(1){
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    background: url(images/logo.jpg) no-repeat;
+    border-radius: 50%;
+    background-size: cover;
+    float: left;
+}
+footer ul li div:nth-child(2){
+    height: 50px;
+    float: left;
+}
+footer ul li div:nth-child(2) p{
+    margin: 5px 0px 5px 5px;
+    text-align: left;
+}
+footer dl{
+    width: 70px;
+    height: 150px;
+    font-size: 13px;
+    margin-left: 200px;
+    margin-top: 20px;
+    display: inline-block;
+}
+footer dl dt{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+footer dl dd{
+    margin-top: 10px;
+}
+footer>p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
